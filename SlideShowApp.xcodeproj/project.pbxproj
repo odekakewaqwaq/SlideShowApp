@@ -12,6 +12,10 @@
 		850982CC1CC3AF5E001BB9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850982CA1CC3AF5E001BB9CC /* Main.storyboard */; };
 		850982CE1CC3AF5E001BB9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850982CD1CC3AF5E001BB9CC /* Assets.xcassets */; };
 		850982D11CC3AF5E001BB9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850982CF1CC3AF5E001BB9CC /* LaunchScreen.storyboard */; };
+		850982D91CC3AF93001BB9CC /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 850982D81CC3AF93001BB9CC /* image3.jpg */; };
+		850982DB1CC3AF9B001BB9CC /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 850982DA1CC3AF9B001BB9CC /* image1.jpg */; };
+		850982DD1CC3AFB8001BB9CC /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 850982DC1CC3AFB8001BB9CC /* image2.jpg */; };
+		850982DF1CC439CE001BB9CC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850982DE1CC439CE001BB9CC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		850982CD1CC3AF5E001BB9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850982D01CC3AF5E001BB9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850982D21CC3AF5E001BB9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850982D81CC3AF93001BB9CC /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		850982DA1CC3AF9B001BB9CC /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		850982DC1CC3AFB8001BB9CC /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		850982DE1CC439CE001BB9CC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				850982C61CC3AF5E001BB9CC /* AppDelegate.swift */,
 				850982C81CC3AF5E001BB9CC /* ViewController.swift */,
 				850982CA1CC3AF5E001BB9CC /* Main.storyboard */,
+				850982DE1CC439CE001BB9CC /* ResultViewController.swift */,
 				850982CD1CC3AF5E001BB9CC /* Assets.xcassets */,
 				850982CF1CC3AF5E001BB9CC /* LaunchScreen.storyboard */,
 				850982D21CC3AF5E001BB9CC /* Info.plist */,
+				850982DA1CC3AF9B001BB9CC /* image1.jpg */,
+				850982DC1CC3AFB8001BB9CC /* image2.jpg */,
+				850982D81CC3AF93001BB9CC /* image3.jpg */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -123,9 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850982DD1CC3AFB8001BB9CC /* image2.jpg in Resources */,
 				850982D11CC3AF5E001BB9CC /* LaunchScreen.storyboard in Resources */,
 				850982CE1CC3AF5E001BB9CC /* Assets.xcassets in Resources */,
 				850982CC1CC3AF5E001BB9CC /* Main.storyboard in Resources */,
+				850982D91CC3AF93001BB9CC /* image3.jpg in Resources */,
+				850982DB1CC3AF9B001BB9CC /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			files = (
 				850982C91CC3AF5E001BB9CC /* ViewController.swift in Sources */,
 				850982C71CC3AF5E001BB9CC /* AppDelegate.swift in Sources */,
+				850982DF1CC439CE001BB9CC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +269,7 @@
 				INFOPLIST_FILE = SlideShowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nobue.nagai.SlideShowApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SlideShowApp;
 			};
 			name = Debug;
 		};
@@ -264,7 +280,7 @@
 				INFOPLIST_FILE = SlideShowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.nobue.nagai.SlideShowApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SlideShowApp;
 			};
 			name = Release;
 		};
@@ -287,6 +303,7 @@
 				850982D71CC3AF5E001BB9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
